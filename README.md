@@ -1,2 +1,2 @@
-# angular_exemplos
-Repositórios para fins de exemplos utilizando angular.
+# cursos
+Uma aplicação criada com o objetivo de gerenciar cursos, usando Angular 8+
