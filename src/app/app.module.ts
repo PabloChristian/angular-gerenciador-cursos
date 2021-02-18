@@ -8,6 +8,8 @@ import { ReplacePipe } from './pipe/replace.pipe';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule} from '@angular/router';
 import { IndexComponent } from './index/index.component';
+import { Error404Component } from './error-404/error-404.component';
+import { CourseInfoComponent } from './courses/course-info.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { IndexComponent } from './index/index.component';
     StarComponent,
     ReplacePipe,
     NavBarComponent,
-    IndexComponent
+    IndexComponent,
+    Error404Component,
+    CourseInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +32,12 @@ import { IndexComponent } from './index/index.component';
       },
       {
         path: 'courses', component: CourseListComponent //quando acessar url courses, irá redirecionar para o componente
+      },
+      {
+        path: 'courses/info/:id', component: CourseInfoComponent
+      },
+      {
+        path: '**', component: Error404Component //quando acessar url que não existe
       }
     ])
   ],

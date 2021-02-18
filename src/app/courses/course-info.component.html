@@ -1,0 +1,60 @@
+<div class="infoCurso">
+  <h2>Informação do Curso</h2>
+  <hr/>
+
+  <form #courseForm="ngForm">
+    <div class="form-group row">
+      <label class="col-sm-2 col-from-label">Nome:</label>
+
+      <div class="col-sm-10">
+        <input [(ngModel)]="course.name" name="name" #courseName="ngModel" type="string" [ngClass]="{'is-invalid': courseName.invalid}" class="form-control">
+      </div>
+
+      <div class="invalid-feedback">
+        <span>Nome do curso é necessário</span>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-from-label">Preço:</label>
+
+      <div class="col-sm-10">
+        <input [(ngModel)]="course.price" name="price" #coursePrice="ngModel" type="number" [ngClass]="{'is-invalid': coursePrice.invalid}" class="form-control">
+      </div>
+
+      <div class="invalid-feedback">
+        <span>Preço do curso é necessário</span>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-from-label">Rating:</label>
+
+      <div class="col-sm-10">
+        <input [(ngModel)]="course.rating" name="rating" #courseRating="ngModel" type="number" [ngClass]="{'is-invalid': courseRating.invalid}" class="form-control">
+      </div>
+
+      <div class="invalid-feedback">
+        <span>Rating do curso é necessário</span>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-from-label">Description:</label>
+
+      <div class="col-sm-10">
+        <textarea [(ngModel)]="course.description" name="description" 
+          #courseDescription="ngModel" type="string" 
+          [ngClass]="{'is-invalid': courseDescription.invalid}" class="form-control">
+        </textarea>
+      </div>
+
+      <div class="invalid-feedback">
+        <span>Descrição do curso é necessário</span>
+      </div>
+    </div>
+    <br>
+    <button [disabled]="courseForm.invalid" (click)="save()" [routerLink]="['/courses']" class="btn btn-primary mr-2">Salvar</button>
+    <button [routerLink]="['/courses']" class="btn btn-secondary">Voltar</button>
+  </form>
+</div>
