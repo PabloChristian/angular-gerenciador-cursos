@@ -2,7 +2,7 @@
   <h2>Informação do Curso</h2>
   <hr/>
 
-  <form #courseForm="ngForm">
+  <form #courseForm="ngForm" *ngIf="course"> <!--ngif só exibe o formulário após carregar requisição do service -->
     <div class="form-group row">
       <label class="col-sm-2 col-from-label">Nome:</label>
 

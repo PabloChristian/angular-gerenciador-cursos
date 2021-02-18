@@ -4,4 +4,14 @@ thead {
 
 .container{
   margin-top: 20px;
+  width:100%;
+}
+
+.btn.btn-danger{
+  margin-left:10px;
+  width:90px;
+}
+
+.btn.btn-primary{
+  width:90px;
 }
