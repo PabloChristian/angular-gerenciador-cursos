@@ -1,9 +1,6 @@
 # Gerenciador de Cursos
 Uma aplicação criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
 
-Link:
-https://pablochristian.github.io/cursos/.
-
 Tecnologias:
 - Angular
 - Javascript
