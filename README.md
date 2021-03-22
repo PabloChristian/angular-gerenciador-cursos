@@ -1,36 +1,35 @@
 # Gerenciador de Cursos
-Uma aplicação criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
+Uma aplicação CRUD criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
 
-Link:
-https://pablochristian.github.io/cursos/.
+## Imagens
 
-Tecnologias:
-- Angular
+- Tela Principal
+<img src="docs/prints/print1.png">
+
+- Listagem de Cursos
+<img src="docs/prints/print2.png">
+
+- Edição do Curso
+<img src="docs/prints/print3.png">
+
+- Pesquisa do Curso
+<img src="docs/prints/print4.png">
+
+## Tecnologias:
+- Angular (Material, Forms, Routing, RxJS)
 - Javascript
 - NodeJS
 - TypeScript
 - BootStrap
 - CSS
 - HTML
+- ExpressJS
 
-## Development server
+## Execução - Servidor Web
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Digite `npm  install` para baixar as dependências necessárias.
+Digite `ng serve`. Acesse a página `http://localhost:4200/`.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-
+## Execução - Servidor Node ExpressJS
+Acesse o diretório "server"
+Digite `node serve.js` para executar o servidor.
