@@ -26,7 +26,6 @@ Uma aplicação CRUD criada com o objetivo de gerenciar cursos, usando Angular v
 - ExpressJS
 
 ## Execução - Servidor Web
-
 Digite `npm  install` para baixar as dependências necessárias.
 Digite `ng serve`. Acesse a página `http://localhost:4200/`.
 
