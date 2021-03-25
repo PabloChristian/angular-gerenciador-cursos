@@ -1,6 +1,16 @@
 # Gerenciador de Cursos
 Uma aplicação CRUD criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
 
+## Tecnologias:
+- Angular (Material, Forms, Routing, RxJS)
+- Javascript
+- NodeJS
+- TypeScript
+- BootStrap
+- CSS
+- HTML
+- ExpressJS
+
 ## Imagens
 
 - Tela Principal
@@ -14,16 +24,6 @@ Uma aplicação CRUD criada com o objetivo de gerenciar cursos, usando Angular v
 
 - Pesquisa do Curso
 <img src="docs/prints/print4.png">
-
-## Tecnologias:
-- Angular (Material, Forms, Routing, RxJS)
-- Javascript
-- NodeJS
-- TypeScript
-- BootStrap
-- CSS
-- HTML
-- ExpressJS
 
 ## Execução - Servidor Web
 Digite `npm  install` para baixar as dependências necessárias.
